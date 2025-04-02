@@ -6,67 +6,67 @@ House rental prediction is a machine learning project that estimates rental pric
 
 🛠️ Technologies Used
 
-Python
+1.Python
 
-Flask (Web Framework)
+2.Flask (Web Framework)
 
-NumPy, Pandas (Data Processing)
+3.NumPy, Pandas (Data Processing)
 
-Scikit-Learn (Machine Learning)
+4.Scikit-Learn (Machine Learning)
 
-Pickle (Model Serialization)
+5.Pickle (Model Serialization)
 
-HTML, CSS (Frontend)
+6.HTML, CSS (Frontend)
 
-Git & GitHub (Version Control)
+7.Git & GitHub (Version Control)
 
 📂 Dataset
 
 The dataset contains historical rental data, including:
 
-Location (City, Zip Code, Neighborhood)
+1.Location (City, Zip Code, Neighborhood)
 
-Property Size (Square Feet)
+2.Property Size (Square Feet)
 
-Number of Bedrooms & Bathrooms
+3.Number of Bedrooms & Bathrooms
 
-Year Built
+4.Year Built
 
-Rental Price (Target Variable)
+5.Rental Price (Target Variable)
 
 📊 Data Preprocessing
 
-Handling missing values
+1.Handling missing values
 
-Encoding categorical variables
+2.Encoding categorical variables
 
-Feature scaling and transformation
+3.Feature scaling and transformation
 
-Splitting data into training and testing sets
+4.Splitting data into training and testing sets
 
 🚀 Model Development
 
 We experimented with different machine learning models such as:
 
-Linear Regression
+1.Linear Regression
 
-Random Forest Regressor
+2.Random Forest Regressor
 
-Gradient Boosting
+3.Gradient Boosting
 
-Support Vector Machine (SVM)
+4.Support Vector Machine (SVM)
 
-Neural Networks (Optional)
+5.Neural Networks (Optional)
 
 Performance was evaluated using metrics like R² Score, Mean Absolute Error (MAE), and Mean Squared Error (MSE).
 
 🌐 Application Structure
 
-Flask App (app.py): Handles user requests and serves predictions.
+1.Flask App (app.py): Handles user requests and serves predictions.
 
-Model (model.pkl): Serialized trained model loaded for predictions.
+2.Model (model.pkl): Serialized trained model loaded for predictions.
 
-Templates (index.html): Frontend user interface for input and results.
+3.Templates (index.html): Frontend user interface for input and results.
 
 📌 How to Run the Project
 
