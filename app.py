@@ -7,8 +7,8 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 @app.route('/')
-def index():
-    return render_template('index.html')
+df = pd.read_csv('house_data.csv')
+
 
 
 @app.route('/predict', methods=['GET', 'POST'])
