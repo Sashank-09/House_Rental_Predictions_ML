@@ -7,7 +7,8 @@ model = pickle.load(open('model.pkl', 'rb'))
 
 
 @app.route('/')
-df = pd.read_csv('house_data.csv')
+def index():
+    return render_template('index.html')
 
 
 
